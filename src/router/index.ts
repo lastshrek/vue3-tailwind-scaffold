@@ -6,15 +6,15 @@
  * @Description: router
  * @FilePath: /vue3-tailwind-scaffold/src/router/index.ts
  */
+import { App } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
-import { App} from 'vue'
 const router = createRouter({
-		history: createWebHistory(),
-		routes: [{ path: '/', component: () => import('../views/home.vue')}]
-	})
+  history: createWebHistory(),
+  routes: [{ path: '/', component: () => import('../views/home.vue') }],
+})
 
 export function setupRouter(app: App) {
-	app.use(router)
+  app.use(router)
 }
 
 export default router

@@ -7,22 +7,18 @@
  * @FilePath: /vue3-tailwind-scaffold/src/views/home.vue
 -->
 <template>
-	<div>
-		123
-	</div>
+  <div>12352435235</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-	name:'home',
-	setup () {		
-		return {}
-	}
+  name: 'home',
+  setup() {
+    return {}
+  },
 })
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
