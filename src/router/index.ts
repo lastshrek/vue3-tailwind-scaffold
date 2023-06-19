@@ -7,10 +7,11 @@
  * @FilePath: /vue3-tailwind-scaffold/src/router/index.ts
  */
 import { App } from 'vue'
+import routes from './routes'
 import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
   history: createWebHistory(),
-  routes: [{ path: '/', component: () => import('../views/home.vue') }],
+  routes,
 })
 
 export function setupRouter(app: App) {
